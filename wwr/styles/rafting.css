@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #304D6D;
+    --secondary-color: #A7CCED;
+    --accent1-color: #82A0BC;
+    --accent2-color: #545E75;
+    }
+
+h1 {
+    color: var(--primary-color);
+    font-weight: 100;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-weight: 100;
+}
+
+p {
+    color: var(--accent2-color);
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    width: 700px;
+    margin: auto;
+}
+
+.sociallinks > a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+    float: right;
+}
+
+/* The pictures are overlapping with each other, and the words are on the picture as well It does not look like the example.
+ They don't have padding between each other either. I am wondering what I did wrong */
