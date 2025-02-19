@@ -5,6 +5,10 @@
     --accent2-color: #545E75;
     }
 
+header {
+    grid-template-columns: auto;
+}
+
 h1 {
     color: var(--primary-color);
     font-weight: 100;
@@ -47,6 +51,22 @@ body {
 .hero article {
     position: absolute;
     float: right;
+}
+
+.hero div {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero img {
+    float: right;
+}
+
+nav {
+    flex: auto;
 }
 
 /* The pictures are overlapping with each other, and the words are on the picture as well It does not look like the example.
